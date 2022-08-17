@@ -41,7 +41,7 @@
         <br>
         <button type="submit">subtract</button>
     </form>
-    <h3 id="result">     </h3>
+    <h3 id="result1">     </h3>
 
     <script>
         function doSubtract() {
@@ -54,7 +54,7 @@
 
             let subtract = thirdNumber - fourthNumber;
 
-            document.querySelector("#result").innerHTML = subtract;
+            document.querySelector("#result1").innerHTML = subtract;
         }
     </script>
 
@@ -67,7 +67,7 @@
     <br>
     <button type="submit">Multiply</button>
 </form>
-<h3 id="result">     </h3>
+<h3 id="result2">     </h3>
 
 
 <script>
@@ -81,7 +81,7 @@
 
         let Multiply =fifthNumber * sixthNumber;
 
-        document.querySelector("#result").innerHTML = Multiply;
+        document.querySelector("#result2").innerHTML = Multiply;
     }
 </script>
 
@@ -96,7 +96,7 @@
     <br>
     <button type="submit">divide</button>
 </form>
-<h3 id="result">     </h3>
+<h3 id="result3">     </h3>
 
 
 
@@ -111,7 +111,7 @@
 
         let Divide = SevenNumber / EightNumber;
 
-        document.querySelector("#result").innerHTML = Divide;
+        document.querySelector("#result3").innerHTML = Divide;
     }
 </script>
      
@@ -120,9 +120,10 @@
 <input type="button" value="Clear" onclick="clearScreen()" id="btn" /> 
 <script>
     function clearScreen() {
-        document.getElementById("btn").value ="";
+        document.getElementById("result3").value ="";
     }
 </script>
 
 </body>
 </html>
+ ./0     
